@@ -9,6 +9,8 @@ console.log("git log");
 console.log("git log --oneline");
 console.log("git show <commit id>");
 console.log("git reset --hard <commit id>");
+console.log("git push -f");
+console.log("git push");
 const { add, sub, mul, div, isAbove, sayName } = require("./math");
 add(10, 20);
 sub(10, 20);

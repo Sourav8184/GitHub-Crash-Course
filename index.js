@@ -17,3 +17,4 @@ div(10, 20);
 sayName("John");
 isAbove(20);
 isAbove(10);
+console.log("push code on the github successfully");

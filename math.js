@@ -25,4 +25,7 @@ function div(num1, num2) {
   }
 }
 
-module.exports = { add, sub, mul, div };
+function sayName(name) {
+  console.log(`Hello ${name}`);
+}
+module.exports = { add, sub, mul, div, sayName };

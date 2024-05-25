@@ -13,4 +13,16 @@ function sub(num1, num2) {
   }
 }
 
-module.exports = { add, sub };
+function mul(num1, num2) {
+  console.log(num1 * num2);
+}
+
+function div(num1, num2) {
+  if (num1 > num2) {
+    console.log(num1 / num2);
+  } else {
+    console.log(num2 / num1);
+  }
+}
+
+module.exports = { add, sub, mul, div };

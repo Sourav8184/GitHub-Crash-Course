@@ -4,7 +4,11 @@ console.log("git init");
 console.log("git add <file_Name>");
 console.log("(git add .) add all the files in the staging area");
 console.log("git diff");
-
+console.log("git blame <file_Name>");
+console.log("git log");
+console.log("git log --oneline");
+console.log("git show <commit id>");
+console.log("git reset --hard <commit id>");
 const { add, sub, mul, div, isAbove } = require("./math");
 add(10, 20);
 sub(10, 20);

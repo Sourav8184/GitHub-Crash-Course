@@ -24,11 +24,5 @@ function div(num1, num2) {
     console.log(num2 / num1);
   }
 }
-const isAbove = (age) => {
-  if (age > 18) {
-    console.log("you age is 18");
-  } else {
-    console.log("you are less then 18");
-  }
-};
-module.exports = { add, sub, mul, div, isAbove };
+
+module.exports = { add, sub, mul, div };

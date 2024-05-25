@@ -13,4 +13,4 @@ function sub(num1, num2) {
   }
 }
 
-export { add, sub };
+module.exports = { add, sub };

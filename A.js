@@ -5,3 +5,6 @@ function featureA() {
   console.log("feature A is successfull");
 }
 module.exports = { featureA };
+function featureA2() {
+  console.log("featureA2");
+}

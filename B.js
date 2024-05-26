@@ -4,3 +4,6 @@ function sayBye(name) {
 }
 module.exports = { sayBye };
 console.log("Feature b is copleted");
+console.log("commit 1 for rebasing");
+console.log("commit 2 for rebasing");
+console.log("commit 3 for rebasing");
